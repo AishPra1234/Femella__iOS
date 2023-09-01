@@ -13,27 +13,9 @@
 		91AB1E7C2AA1A5A600555DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1E7A2AA1A5A600555DA3 /* Main.storyboard */; };
 		91AB1E7E2AA1A5A700555DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1E7D2AA1A5A700555DA3 /* Assets.xcassets */; };
 		91AB1E812AA1A5A700555DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1E7F2AA1A5A700555DA3 /* LaunchScreen.storyboard */; };
-		91AB1E8C2AA1A5A700555DA3 /* FemellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB1E8B2AA1A5A700555DA3 /* FemellaTests.swift */; };
-		91AB1E962AA1A5A700555DA3 /* FemellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB1E952AA1A5A700555DA3 /* FemellaUITests.swift */; };
-		91AB1E982AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB1E972AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift */; };
+		91AB1EAC2AA1AE0300555DA3 /* Quattrocento-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1EAA2AA1AE0300555DA3 /* Quattrocento-Bold.ttf */; };
+		91AB1EAF2AA1AE0300555DA3 /* Quattrocento-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1EAB2AA1AE0300555DA3 /* Quattrocento-Regular.ttf */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		91AB1E882AA1A5A700555DA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91AB1E692AA1A5A600555DA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 91AB1E702AA1A5A600555DA3;
-			remoteInfo = Femella;
-		};
-		91AB1E922AA1A5A700555DA3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91AB1E692AA1A5A600555DA3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 91AB1E702AA1A5A600555DA3;
-			remoteInfo = Femella;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		91AB1E712AA1A5A600555DA3 /* Femella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Femella.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,29 +26,12 @@
 		91AB1E7D2AA1A5A700555DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91AB1E802AA1A5A700555DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91AB1E822AA1A5A700555DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91AB1E872AA1A5A700555DA3 /* FemellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemellaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91AB1E8B2AA1A5A700555DA3 /* FemellaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemellaTests.swift; sourceTree = "<group>"; };
-		91AB1E912AA1A5A700555DA3 /* FemellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemellaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		91AB1E952AA1A5A700555DA3 /* FemellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemellaUITests.swift; sourceTree = "<group>"; };
-		91AB1E972AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemellaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91AB1EAA2AA1AE0300555DA3 /* Quattrocento-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quattrocento-Bold.ttf"; path = "../../../Fonts/Quattrocento-Bold.ttf"; sourceTree = "<group>"; };
+		91AB1EAB2AA1AE0300555DA3 /* Quattrocento-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quattrocento-Regular.ttf"; path = "../../../Fonts/Quattrocento-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		91AB1E6E2AA1A5A600555DA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91AB1E842AA1A5A700555DA3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91AB1E8E2AA1A5A700555DA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				91AB1E732AA1A5A600555DA3 /* Femella */,
-				91AB1E8A2AA1A5A700555DA3 /* FemellaTests */,
-				91AB1E942AA1A5A700555DA3 /* FemellaUITests */,
 				91AB1E722AA1A5A600555DA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				91AB1E712AA1A5A600555DA3 /* Femella.app */,
-				91AB1E872AA1A5A700555DA3 /* FemellaTests.xctest */,
-				91AB1E912AA1A5A700555DA3 /* FemellaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +60,7 @@
 		91AB1E732AA1A5A600555DA3 /* Femella */ = {
 			isa = PBXGroup;
 			children = (
+				91AB1EA92AA1ADEE00555DA3 /* Fonts */,
 				91AB1E742AA1A5A600555DA3 /* AppDelegate.swift */,
 				91AB1E762AA1A5A600555DA3 /* SceneDelegate.swift */,
 				91AB1E782AA1A5A600555DA3 /* ViewController.swift */,
@@ -110,21 +72,13 @@
 			path = Femella;
 			sourceTree = "<group>";
 		};
-		91AB1E8A2AA1A5A700555DA3 /* FemellaTests */ = {
+		91AB1EA92AA1ADEE00555DA3 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				91AB1E8B2AA1A5A700555DA3 /* FemellaTests.swift */,
+				91AB1EAA2AA1AE0300555DA3 /* Quattrocento-Bold.ttf */,
+				91AB1EAB2AA1AE0300555DA3 /* Quattrocento-Regular.ttf */,
 			);
-			path = FemellaTests;
-			sourceTree = "<group>";
-		};
-		91AB1E942AA1A5A700555DA3 /* FemellaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				91AB1E952AA1A5A700555DA3 /* FemellaUITests.swift */,
-				91AB1E972AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift */,
-			);
-			path = FemellaUITests;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +101,6 @@
 			productReference = 91AB1E712AA1A5A600555DA3 /* Femella.app */;
 			productType = "com.apple.product-type.application";
 		};
-		91AB1E862AA1A5A700555DA3 /* FemellaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 91AB1E9E2AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "FemellaTests" */;
-			buildPhases = (
-				91AB1E832AA1A5A700555DA3 /* Sources */,
-				91AB1E842AA1A5A700555DA3 /* Frameworks */,
-				91AB1E852AA1A5A700555DA3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				91AB1E892AA1A5A700555DA3 /* PBXTargetDependency */,
-			);
-			name = FemellaTests;
-			productName = FemellaTests;
-			productReference = 91AB1E872AA1A5A700555DA3 /* FemellaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		91AB1E902AA1A5A700555DA3 /* FemellaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 91AB1EA12AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "FemellaUITests" */;
-			buildPhases = (
-				91AB1E8D2AA1A5A700555DA3 /* Sources */,
-				91AB1E8E2AA1A5A700555DA3 /* Frameworks */,
-				91AB1E8F2AA1A5A700555DA3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				91AB1E932AA1A5A700555DA3 /* PBXTargetDependency */,
-			);
-			name = FemellaUITests;
-			productName = FemellaUITests;
-			productReference = 91AB1E912AA1A5A700555DA3 /* FemellaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +113,6 @@
 				TargetAttributes = {
 					91AB1E702AA1A5A600555DA3 = {
 						CreatedOnToolsVersion = 14.3.1;
-					};
-					91AB1E862AA1A5A700555DA3 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 91AB1E702AA1A5A600555DA3;
-					};
-					91AB1E902AA1A5A700555DA3 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 91AB1E702AA1A5A600555DA3;
 					};
 				};
 			};
@@ -220,8 +130,6 @@
 			projectRoot = "";
 			targets = (
 				91AB1E702AA1A5A600555DA3 /* Femella */,
-				91AB1E862AA1A5A700555DA3 /* FemellaTests */,
-				91AB1E902AA1A5A700555DA3 /* FemellaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,23 +139,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91AB1EAC2AA1AE0300555DA3 /* Quattrocento-Bold.ttf in Resources */,
 				91AB1E812AA1A5A700555DA3 /* LaunchScreen.storyboard in Resources */,
 				91AB1E7E2AA1A5A700555DA3 /* Assets.xcassets in Resources */,
 				91AB1E7C2AA1A5A600555DA3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91AB1E852AA1A5A700555DA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91AB1E8F2AA1A5A700555DA3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				91AB1EAF2AA1AE0300555DA3 /* Quattrocento-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,37 +160,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91AB1E832AA1A5A700555DA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91AB1E8C2AA1A5A700555DA3 /* FemellaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91AB1E8D2AA1A5A700555DA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				91AB1E962AA1A5A700555DA3 /* FemellaUITests.swift in Sources */,
-				91AB1E982AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		91AB1E892AA1A5A700555DA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 91AB1E702AA1A5A600555DA3 /* Femella */;
-			targetProxy = 91AB1E882AA1A5A700555DA3 /* PBXContainerItemProxy */;
-		};
-		91AB1E932AA1A5A700555DA3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 91AB1E702AA1A5A600555DA3 /* Femella */;
-			targetProxy = 91AB1E922AA1A5A700555DA3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		91AB1E7A2AA1A5A600555DA3 /* Main.storyboard */ = {
@@ -486,82 +352,6 @@
 			};
 			name = Release;
 		};
-		91AB1E9F2AA1A5A700555DA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QYN27YM95G;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ASh.FemellaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femella.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Femella";
-			};
-			name = Debug;
-		};
-		91AB1EA02AA1A5A700555DA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QYN27YM95G;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ASh.FemellaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femella.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Femella";
-			};
-			name = Release;
-		};
-		91AB1EA22AA1A5A700555DA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QYN27YM95G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ASh.FemellaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Femella;
-			};
-			name = Debug;
-		};
-		91AB1EA32AA1A5A700555DA3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QYN27YM95G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ASh.FemellaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Femella;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,24 +369,6 @@
 			buildConfigurations = (
 				91AB1E9C2AA1A5A700555DA3 /* Debug */,
 				91AB1E9D2AA1A5A700555DA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		91AB1E9E2AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "FemellaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				91AB1E9F2AA1A5A700555DA3 /* Debug */,
-				91AB1EA02AA1A5A700555DA3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		91AB1EA12AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "FemellaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				91AB1EA22AA1A5A700555DA3 /* Debug */,
-				91AB1EA32AA1A5A700555DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
