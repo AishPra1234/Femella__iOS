@@ -13,8 +13,6 @@
 		91AB1E7C2AA1A5A600555DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1E7A2AA1A5A600555DA3 /* Main.storyboard */; };
 		91AB1E7E2AA1A5A700555DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1E7D2AA1A5A700555DA3 /* Assets.xcassets */; };
 		91AB1E812AA1A5A700555DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1E7F2AA1A5A700555DA3 /* LaunchScreen.storyboard */; };
-		91AB1EAC2AA1AE0300555DA3 /* Quattrocento-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1EAA2AA1AE0300555DA3 /* Quattrocento-Bold.ttf */; };
-		91AB1EAF2AA1AE0300555DA3 /* Quattrocento-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1EAB2AA1AE0300555DA3 /* Quattrocento-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +24,6 @@
 		91AB1E7D2AA1A5A700555DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91AB1E802AA1A5A700555DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91AB1E822AA1A5A700555DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91AB1EAA2AA1AE0300555DA3 /* Quattrocento-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quattrocento-Bold.ttf"; path = "../../../Fonts/Quattrocento-Bold.ttf"; sourceTree = "<group>"; };
-		91AB1EAB2AA1AE0300555DA3 /* Quattrocento-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quattrocento-Regular.ttf"; path = "../../../Fonts/Quattrocento-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +56,6 @@
 		91AB1E732AA1A5A600555DA3 /* Femella */ = {
 			isa = PBXGroup;
 			children = (
-				91AB1EA92AA1ADEE00555DA3 /* Fonts */,
 				91AB1E742AA1A5A600555DA3 /* AppDelegate.swift */,
 				91AB1E762AA1A5A600555DA3 /* SceneDelegate.swift */,
 				91AB1E782AA1A5A600555DA3 /* ViewController.swift */,
@@ -70,15 +65,6 @@
 				91AB1E822AA1A5A700555DA3 /* Info.plist */,
 			);
 			path = Femella;
-			sourceTree = "<group>";
-		};
-		91AB1EA92AA1ADEE00555DA3 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				91AB1EAA2AA1AE0300555DA3 /* Quattrocento-Bold.ttf */,
-				91AB1EAB2AA1AE0300555DA3 /* Quattrocento-Regular.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,11 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91AB1EAC2AA1AE0300555DA3 /* Quattrocento-Bold.ttf in Resources */,
 				91AB1E812AA1A5A700555DA3 /* LaunchScreen.storyboard in Resources */,
 				91AB1E7E2AA1A5A700555DA3 /* Assets.xcassets in Resources */,
 				91AB1E7C2AA1A5A600555DA3 /* Main.storyboard in Resources */,
-				91AB1EAF2AA1AE0300555DA3 /* Quattrocento-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
