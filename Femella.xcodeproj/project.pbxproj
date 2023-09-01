@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91AB1E752AA1A5A600555DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB1E742AA1A5A600555DA3 /* AppDelegate.swift */; };
+		91AB1E772AA1A5A600555DA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB1E762AA1A5A600555DA3 /* SceneDelegate.swift */; };
+		91AB1E792AA1A5A600555DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB1E782AA1A5A600555DA3 /* ViewController.swift */; };
+		91AB1E7C2AA1A5A600555DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1E7A2AA1A5A600555DA3 /* Main.storyboard */; };
+		91AB1E7E2AA1A5A700555DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1E7D2AA1A5A700555DA3 /* Assets.xcassets */; };
+		91AB1E812AA1A5A700555DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91AB1E7F2AA1A5A700555DA3 /* LaunchScreen.storyboard */; };
+		91AB1E8C2AA1A5A700555DA3 /* FemellaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB1E8B2AA1A5A700555DA3 /* FemellaTests.swift */; };
+		91AB1E962AA1A5A700555DA3 /* FemellaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB1E952AA1A5A700555DA3 /* FemellaUITests.swift */; };
+		91AB1E982AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AB1E972AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91AB1E882AA1A5A700555DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91AB1E692AA1A5A600555DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91AB1E702AA1A5A600555DA3;
+			remoteInfo = Femella;
+		};
+		91AB1E922AA1A5A700555DA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91AB1E692AA1A5A600555DA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91AB1E702AA1A5A600555DA3;
+			remoteInfo = Femella;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91AB1E712AA1A5A600555DA3 /* Femella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Femella.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AB1E742AA1A5A600555DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91AB1E762AA1A5A600555DA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91AB1E782AA1A5A600555DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91AB1E7B2AA1A5A600555DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91AB1E7D2AA1A5A700555DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91AB1E802AA1A5A700555DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91AB1E822AA1A5A700555DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91AB1E872AA1A5A700555DA3 /* FemellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemellaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AB1E8B2AA1A5A700555DA3 /* FemellaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemellaTests.swift; sourceTree = "<group>"; };
+		91AB1E912AA1A5A700555DA3 /* FemellaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemellaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AB1E952AA1A5A700555DA3 /* FemellaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemellaUITests.swift; sourceTree = "<group>"; };
+		91AB1E972AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemellaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91AB1E6E2AA1A5A600555DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AB1E842AA1A5A700555DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AB1E8E2AA1A5A700555DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91AB1E682AA1A5A600555DA3 = {
+			isa = PBXGroup;
+			children = (
+				91AB1E732AA1A5A600555DA3 /* Femella */,
+				91AB1E8A2AA1A5A700555DA3 /* FemellaTests */,
+				91AB1E942AA1A5A700555DA3 /* FemellaUITests */,
+				91AB1E722AA1A5A600555DA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91AB1E722AA1A5A600555DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91AB1E712AA1A5A600555DA3 /* Femella.app */,
+				91AB1E872AA1A5A700555DA3 /* FemellaTests.xctest */,
+				91AB1E912AA1A5A700555DA3 /* FemellaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91AB1E732AA1A5A600555DA3 /* Femella */ = {
+			isa = PBXGroup;
+			children = (
+				91AB1E742AA1A5A600555DA3 /* AppDelegate.swift */,
+				91AB1E762AA1A5A600555DA3 /* SceneDelegate.swift */,
+				91AB1E782AA1A5A600555DA3 /* ViewController.swift */,
+				91AB1E7A2AA1A5A600555DA3 /* Main.storyboard */,
+				91AB1E7D2AA1A5A700555DA3 /* Assets.xcassets */,
+				91AB1E7F2AA1A5A700555DA3 /* LaunchScreen.storyboard */,
+				91AB1E822AA1A5A700555DA3 /* Info.plist */,
+			);
+			path = Femella;
+			sourceTree = "<group>";
+		};
+		91AB1E8A2AA1A5A700555DA3 /* FemellaTests */ = {
+			isa = PBXGroup;
+			children = (
+				91AB1E8B2AA1A5A700555DA3 /* FemellaTests.swift */,
+			);
+			path = FemellaTests;
+			sourceTree = "<group>";
+		};
+		91AB1E942AA1A5A700555DA3 /* FemellaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91AB1E952AA1A5A700555DA3 /* FemellaUITests.swift */,
+				91AB1E972AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift */,
+			);
+			path = FemellaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91AB1E702AA1A5A600555DA3 /* Femella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AB1E9B2AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "Femella" */;
+			buildPhases = (
+				91AB1E6D2AA1A5A600555DA3 /* Sources */,
+				91AB1E6E2AA1A5A600555DA3 /* Frameworks */,
+				91AB1E6F2AA1A5A600555DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Femella;
+			productName = Femella;
+			productReference = 91AB1E712AA1A5A600555DA3 /* Femella.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91AB1E862AA1A5A700555DA3 /* FemellaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AB1E9E2AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "FemellaTests" */;
+			buildPhases = (
+				91AB1E832AA1A5A700555DA3 /* Sources */,
+				91AB1E842AA1A5A700555DA3 /* Frameworks */,
+				91AB1E852AA1A5A700555DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91AB1E892AA1A5A700555DA3 /* PBXTargetDependency */,
+			);
+			name = FemellaTests;
+			productName = FemellaTests;
+			productReference = 91AB1E872AA1A5A700555DA3 /* FemellaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91AB1E902AA1A5A700555DA3 /* FemellaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AB1EA12AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "FemellaUITests" */;
+			buildPhases = (
+				91AB1E8D2AA1A5A700555DA3 /* Sources */,
+				91AB1E8E2AA1A5A700555DA3 /* Frameworks */,
+				91AB1E8F2AA1A5A700555DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91AB1E932AA1A5A700555DA3 /* PBXTargetDependency */,
+			);
+			name = FemellaUITests;
+			productName = FemellaUITests;
+			productReference = 91AB1E912AA1A5A700555DA3 /* FemellaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91AB1E692AA1A5A600555DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					91AB1E702AA1A5A600555DA3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					91AB1E862AA1A5A700555DA3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 91AB1E702AA1A5A600555DA3;
+					};
+					91AB1E902AA1A5A700555DA3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 91AB1E702AA1A5A600555DA3;
+					};
+				};
+			};
+			buildConfigurationList = 91AB1E6C2AA1A5A600555DA3 /* Build configuration list for PBXProject "Femella" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91AB1E682AA1A5A600555DA3;
+			productRefGroup = 91AB1E722AA1A5A600555DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91AB1E702AA1A5A600555DA3 /* Femella */,
+				91AB1E862AA1A5A700555DA3 /* FemellaTests */,
+				91AB1E902AA1A5A700555DA3 /* FemellaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91AB1E6F2AA1A5A600555DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AB1E812AA1A5A700555DA3 /* LaunchScreen.storyboard in Resources */,
+				91AB1E7E2AA1A5A700555DA3 /* Assets.xcassets in Resources */,
+				91AB1E7C2AA1A5A600555DA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AB1E852AA1A5A700555DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AB1E8F2AA1A5A700555DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91AB1E6D2AA1A5A600555DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AB1E792AA1A5A600555DA3 /* ViewController.swift in Sources */,
+				91AB1E752AA1A5A600555DA3 /* AppDelegate.swift in Sources */,
+				91AB1E772AA1A5A600555DA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AB1E832AA1A5A700555DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AB1E8C2AA1A5A700555DA3 /* FemellaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AB1E8D2AA1A5A700555DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AB1E962AA1A5A700555DA3 /* FemellaUITests.swift in Sources */,
+				91AB1E982AA1A5A700555DA3 /* FemellaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91AB1E892AA1A5A700555DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91AB1E702AA1A5A600555DA3 /* Femella */;
+			targetProxy = 91AB1E882AA1A5A700555DA3 /* PBXContainerItemProxy */;
+		};
+		91AB1E932AA1A5A700555DA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91AB1E702AA1A5A600555DA3 /* Femella */;
+			targetProxy = 91AB1E922AA1A5A700555DA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91AB1E7A2AA1A5A600555DA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91AB1E7B2AA1A5A600555DA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91AB1E7F2AA1A5A700555DA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91AB1E802AA1A5A700555DA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91AB1E992AA1A5A700555DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91AB1E9A2AA1A5A700555DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91AB1E9C2AA1A5A700555DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYN27YM95G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Femella/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ASh.Femella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91AB1E9D2AA1A5A700555DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYN27YM95G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Femella/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ASh.Femella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91AB1E9F2AA1A5A700555DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYN27YM95G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ASh.FemellaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femella.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Femella";
+			};
+			name = Debug;
+		};
+		91AB1EA02AA1A5A700555DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYN27YM95G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ASh.FemellaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Femella.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Femella";
+			};
+			name = Release;
+		};
+		91AB1EA22AA1A5A700555DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYN27YM95G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ASh.FemellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Femella;
+			};
+			name = Debug;
+		};
+		91AB1EA32AA1A5A700555DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYN27YM95G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ASh.FemellaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Femella;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91AB1E6C2AA1A5A600555DA3 /* Build configuration list for PBXProject "Femella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AB1E992AA1A5A700555DA3 /* Debug */,
+				91AB1E9A2AA1A5A700555DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91AB1E9B2AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "Femella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AB1E9C2AA1A5A700555DA3 /* Debug */,
+				91AB1E9D2AA1A5A700555DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91AB1E9E2AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "FemellaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AB1E9F2AA1A5A700555DA3 /* Debug */,
+				91AB1EA02AA1A5A700555DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91AB1EA12AA1A5A700555DA3 /* Build configuration list for PBXNativeTarget "FemellaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AB1EA22AA1A5A700555DA3 /* Debug */,
+				91AB1EA32AA1A5A700555DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91AB1E692AA1A5A600555DA3 /* Project object */;
+}
